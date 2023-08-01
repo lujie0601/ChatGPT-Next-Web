@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-//export const OPENAI_URL = "api.openai.com";
-export const OPENAI_URL = "lujie0601.121014.xyz";
+export const OPENAI_URL = "api.openai.com";
+//export const OPENAI_URL = "lujie0601.121014.xyz";
 const DEFAULT_PROTOCOL = "https";
 const PROTOCOL = process.env.PROTOCOL ?? DEFAULT_PROTOCOL;
 const BASE_URL = process.env.BASE_URL ?? OPENAI_URL;
